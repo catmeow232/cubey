@@ -1,1 +1,6 @@
-
+mp.setPlayerIndicatorsVisible(true)
+scene.setBackgroundColor(10)
+mp.setPlayerSprite(mp.playerSelector(mp.PlayerNumber.One), sprites.create(assets.image`player 2`, SpriteKind.Player))
+mp.moveWithButtons(mp.playerSelector(mp.PlayerNumber.One))
+mp.setPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two), sprites.create(assets.image`player 2`, SpriteKind.Player))
+mp.moveWithButtons(mp.playerSelector(mp.PlayerNumber.Two))
